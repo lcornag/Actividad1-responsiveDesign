@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+@media (min-width: 400px) {
+    #divQuienes {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (min-width: 768px) {
+    #divQuienes {
+        width: 50%;
+        left: 30px;
+        transform: none;
+    }
+}
+body {
+    max-width:100%;
+    overflow-x:hidden;
+    margin:0;
+    padding:0;
+}
+
+@media (min-width: 992px) {
+    #divQuienes {
+        width: 35%;
+        left: 30px;
+        transform: none;
+    }
+}
+.navbar-nav{
+    color:white;
+    flex-direction: row;
+    list-style-type:none;
+}
+#navbarList {
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+#navbarList ul{
+    display:inline-block;
+}
+#navbarList a{
+    color:white;
+    width:200px;
+}
+#contacto{
+    background-image: url("../img/world-map.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#fullLogo li{
+    width:70px;
+}
+#imagenLogo{
+    height:50px;
+    background-image: url("../img/66.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#anchors {
+    list-style-type: none;
+}
+#anchors li{
+    float:left;
+}
+#anchors li a{
+    color:white;
+    font-size:30px;
+    margin-right:20px;
+}
+#redesSociales li {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    margin-right: 5px;
+}
+#redesSociales li:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+#redesSociales div{
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:40px;
+  width:40px;
+  }
+#redesSociales #tw{
+  background-image: url("../img/twitter_icon.png");
+}
+#redesSociales #wp{
+  background-image: url("../img/whatsapp_icon.png");
+}
+#redesSociales #fb{
+  background-image: url("../img/facebook_icon.png");
+}
+#redesSociales #ig{
+  background-image: url("../img/instagram_icon.png");
+}
+#redesSociales #lk{
+  background-image: url("../img/linkedin_icon.png");
+}
+#redesSociales #yt{
+  background-image: url("../img/youtube_icon.png");
+}
+#inicio{
+  background-image: url("../img/newYork.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Lato';
+}
+#principal {
+  margin-top: 10vh;
+  color:white;
+}
+#viaja{
+    font-size: 130px;
+    text-shadow: 2px 2px 0px black;
+    margin-left:70px;
+}
+#descubre {
+    font-size: 25px;
+    text-shadow: 2px 2px 0px black;
+}
+#verDestinos{
+    line-height: 20vh;
+}
+#destinos .spaces{
+    height:10vh;
+}
+.destinoCointainer .cadaDestino{
+    margin:5vh 0vh 5vh 0vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width:500px;
+    height:300px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.4 );
+    border-radius: 5px;
+}
+.dentroDestino .lugarDestino{
+    color:white;
+    font-family: 'Lato';
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 1px 1px 0px black;
+    background: rgba(0,123,255,0.6);
+    border-radius: 5px;
+}
+.precio{
+    text-shadow: 1px 1px 10px black;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    height:100%;
+    margin-right: 10px;
+    margin-top: 200px;
+}
+#destino1{
+    background-image: url("../img/destinos/finland.jpg");
+}
+#destino2{
+    background-image: url("../img/destinos/marruecos.jpg");
+}
+#destino3{
+    background-image: url("../img/destinos/nicaragua.jpg");
+}
+#destino4{
+    background-image: url("../img/destinos/peru.jpg");
+}
+#destino5{
+    background-image: url("../img/destinos/singapur.jpg");
+}
+#destino6{
+    background-image: url("../img/destinos/suiza.jpg");
+}
+/*#nosotros .wrapper{*/
+    /*background-image: url("../img/elefantes.jpg");*/
+    /*!*width: 100vw;*!*/
+    /*height: 100vh;*/
+    /*background-size: cover;*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*font-family: 'Lato', sans-serif;*/
+/*}*/
+
+
+/*#nosotros .wrapper > div {*/
+    /*//width: 35vw;*/
+    /*//background-color: rgba(255, 255, 255,0.5);*/
+    /*position: relative;*/
+    /*top: 30px;*/
+    /*//left: 30px;*/
+    /*text-align: center;*/
+    /*border-radius: 5px;*/
+    /*padding: 10px 25px;*/
+    /*color: white;*/
+/*}*/
+
+#nosotros {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#nosotros video {
+    width: 100%;
+    height: 100%;
+}
+
+#nosotros .wrapper > div h3,
+#nosotros .wrapper > div p{
+    color: white;
+}
+
+#nosotros .wrapper > div p {
+    text-shadow: 1px 1px #537775;
+}
+
+#descubrir{
+    background-color: #ff6600;
+    font-weight: bold;
+    width: 110px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 3px;
+    padding: 3px 0px;
+    position: relative;
+    bottom: 5px !important;
+    margin-top: 50px;
+}
+#descubrir:hover {
+    cursor:pointer;
+    background-color: antiquewhite;
+}
+#mapa {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+#mapa div {
+    padding: 0 10%;
+}
+
+form input{
+    margin-bottom: 10px !important;
+}
+
+footer {
+    background-color: black;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+footer a, footer p{
+    color: white;
+}
+
+footer a:hover{
+    color: #676767;
+
+}
+
+footer .col-md-4 {
+    text-align: center;
+}
+
+.footerTitle {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+footer p {
+    font-weight: normal;
+}
+
+#textoAyuda {
+    color: #646464;
+    font-weight: bold;
+}
+
+#divDatos p{
+    font-family: 'Lato', sans-serif;
+}
+
+#copyRight {
+    text-align: center;
+    border-top: solid 1px white;
+    color: white;
+    padding: 15px 0px;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+form button {
+    margin-top: 15px;
+    //font-weight: 500;
+    float: right;
+}
+
+footer input {
+    background-color: black;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: solid 1.5px white;
+    color: white;
+    padding: 0px 5px;
+}
+
+#contacto input {
+    /*border-top: transparent;*/
+    /*border-right: transparent;*/
+    /*border-left: transparent;*/
+    /*border-bottom: solid 1.5px #ced4da;*/
+    border: transparent;
+    padding: 0px 5px;
+    width: 100%;
+    //background-color: transparent;
+}
+
+#contacto textarea {
+    /*border-bottom: solid 1.5px #ced4da !important;*/
+    /*background-color: transparent;*/
+    border: transparent;
+}
+
+#contacto textarea,
+#contacto input {
+    background-color: rgba(255,255,255,0.8);
+    font-weight: bold;
+}
+
+footer input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+footer button {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer button:hover,
+#divDatos button:hover{
+    color: #565656 !important;
+}
+
+#contacto {
+    //padding: 40px 0;
+}
+
+#divDatos,
+#divForm {
+    //background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    border-radius: 5px;
+    //margin-top: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+*:focus{
+    outline: none !important;
+}
+
+#contacto button {
+    border: solid 2px white;
+    color:#747474;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#contacto button:hover {
+    background-color:black;
+    color: white;
+}
+
+#divDatos div {
+    background-color: rgba(255,255,255,0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#contacto input {
+    border-radius: 5px;
+}
+
+#divCita {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: 'Special Elite', sans-serif;
+}
+
+#divCita div:nth-child(1){
+    font-size: 1.8em;
+}
+
+#divCita div:nth-child(2){
+    font-size: 1.2em;
+}
+
+#nosotros .wrapper {
+    position: relative;
+}
+
+#btnToTop {
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    z-index: 1;
+}
+
+#btnToTop div:nth-child(1){
+    border: solid 3px crimson;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-size: 3em;
+    visibility: hidden;
+}
+
+#btnToTop div:nth-child(1):hover{
+    cursor:pointer;
+    font-size: 4em;
+    border: solid 5px;
+}
