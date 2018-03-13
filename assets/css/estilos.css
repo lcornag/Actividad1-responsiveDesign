@@ -35,6 +35,19 @@ body {
     flex-direction: row;
     list-style-type:none;
 }
+@media (min-width:900px){
+    #dropMobile {
+        display: none;
+    }
+}
+@media screen and (max-width:900px){
+    #navbarList{
+        display:none;
+    }
+    #redesSociales{
+        display:none;
+    }
+}
 #navbarList {
     text-align:center;
     margin:0;
@@ -127,11 +140,15 @@ body {
     font-size: 25px;
     text-shadow: 2px 2px 0px black;
 }
+
+@media screen and (max-width:1000px){
+    #verDestinos .destinoCointainer .cadaDestino{
+
+    }
+}
+
 #verDestinos{
     line-height: 20vh;
-}
-#destinos .spaces{
-    height:10vh;
 }
 .destinoCointainer .cadaDestino{
     margin:5vh 0vh 5vh 0vh;
