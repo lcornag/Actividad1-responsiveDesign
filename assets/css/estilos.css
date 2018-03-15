@@ -74,9 +74,6 @@ body {
         font-size: 18px;
         text-align: center;
     }
-    #verDestinos{
-        margin-top:50px;
-    }
     #contenedorTotalDestinos{
         display: none;
     }
@@ -199,9 +196,18 @@ body {
     text-shadow: 2px 2px 0px black;
     text-align: center;
 }
-
+#verDestinos{
+    margin-top:100px;
+}
+#destinos{
+    height:100%;
+}
+.container-fluid .col{
+    display: flex;
+    justify-content: center;
+}
 .destinoContainer .cadaDestino{
-    margin:5vh 0vh 5vh 0vh;
+    margin:10vh 0vh 10vh 0vh;
     background-position: center center;
     background-repeat: no-repeat;
     width:500px;
