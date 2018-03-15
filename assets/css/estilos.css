@@ -89,6 +89,9 @@ body {
         background-position: center !important;
         background-repeat: no-repeat;
     }
+    .dentroDestino .lugarDestino{
+         border-radius: 0 !important;
+     }
     #divCita{
         top:0 !important;
         left:0 !important;
