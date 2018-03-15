@@ -200,12 +200,6 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width:425px){
-
-}
-#verDestinos{
-    line-height: 20vh;
-}
 .destinoContainer .cadaDestino{
     margin:5vh 0vh 5vh 0vh;
     background-position: center center;
