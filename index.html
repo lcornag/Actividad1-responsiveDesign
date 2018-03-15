@@ -22,10 +22,11 @@
                     </ul>
                 </div>
                 <div class="dropdown" id="dropMobile">
-                    <button class="btn btn-outline-light dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-outline-light dropdown-toggle" type="button"
+                            data-toggle="dropdown" aria-expanded="false">
                         FAQ
                     </button>
-                    <div class="dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu">
                         <a class="dropdown-item anchorLinks" href="#destinos">Destinos</a>
                         <a class="dropdown-item anchorLinks" href="#nosotros">Quiénes somos</a>
                         <a class="dropdown-item anchorLinks" href="#mapa">Dónde estamos</a>
@@ -73,8 +74,7 @@
                 </div>
             </div>
             <div id="descubre" class="row">
-                <div id="space" class="col-md-4"></div>
-                <div class="col-md-8">
+                <div class="col-lg-12 col-md-12 col-sm-10">
                     <a>Descubre lugares maravillosos con GeeksHubs Travels</a>
                 </div>
             </div>
@@ -87,10 +87,63 @@
     </div>
 </section>
 <section id="destinos">
-    <div class="container-fluid">
+    <div class="carousel slide" id="carouselDestinos">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="destinoContainer">
+                    <div class="cadaDestino" id="destino1">
+                        <div class="dentroDestino">
+                            <div class="lugarDestino">
+                                <p>Finlandia</p>
+                            </div>
+                            <div class="precio">
+                                <p>599€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="destinoContainer">
+                    <div class="cadaDestino" id="destino2">
+                        <div class="dentroDestino">
+                            <div class="lugarDestino">
+                                <p>Marruecos</p>
+                            </div>
+                            <div class="precio">
+                                <p>270€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="destinoContainer">
+                    <div class="cadaDestino" id="destino3">
+                        <div class="dentroDestino">
+                            <div class="lugarDestino">
+                                <p>Nicaragua</p>
+                            </div>
+                            <div class="precio">
+                                <p>820€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselDestinos" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselDestinos" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <div class="container-fluid" id="contenedorTotalDestinos">
         <div class="d-flex flex-row justify-content-between flex-wrap">
             <div class="p-2">
-                <div class="destinoCointainer">
+                <div class="destinoContainer">
                     <div class="cadaDestino" id="destino1">
                         <div class="dentroDestino">
                             <div class="lugarDestino">
@@ -104,7 +157,7 @@
                 </div>
             </div>
             <div class="p-2">
-                <div class="destinoCointainer">
+                <div class="destinoContainer">
                     <div class="cadaDestino" id="destino2">
                         <div class="dentroDestino">
                             <div class="lugarDestino">
@@ -118,7 +171,7 @@
                 </div>
             </div>
             <div class="p-2">
-                <div class="destinoCointainer">
+                <div class="destinoContainer">
                     <div class="cadaDestino" id="destino3">
                         <div class="dentroDestino">
                             <div class="lugarDestino">
@@ -134,7 +187,7 @@
         </div>
         <div class="d-flex flex-row justify-content-between  flex-wrap">
             <div class="p-2">
-                <div class="destinoCointainer flex-wrap">
+                <div class="destinoContainer flex-wrap">
                     <div class="cadaDestino" id="destino4">
                         <div class="dentroDestino">
                             <div class="lugarDestino">
@@ -148,7 +201,7 @@
                 </div>
             </div>
             <div class="p-2">
-                <div class="destinoCointainer">
+                <div class="destinoContainer">
                     <div class="cadaDestino" id="destino5">
                         <div class="dentroDestino">
                             <div class="lugarDestino">
@@ -162,7 +215,7 @@
                 </div>
             </div>
             <div class="p-2">
-                <div class="destinoCointainer">
+                <div class="destinoContainer">
                     <div class="cadaDestino" id="destino6">
                         <div class="dentroDestino">
                             <div class="lugarDestino">

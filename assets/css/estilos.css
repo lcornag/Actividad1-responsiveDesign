@@ -35,18 +35,75 @@ body {
     flex-direction: row;
     list-style-type:none;
 }
+.dropdown-menu{
+    right:0;
+    left:auto !important;
+}
 @media (min-width:900px){
     #dropMobile {
+        display: none;
+     }
+    #carouselDestinos{
         display: none;
     }
 }
 @media screen and (max-width:900px){
+    #inicio{
+        background-position: top;
+    }
+    #fullLogo li{
+        width:50px;
+    }
+    #fullLogo a{
+        visibility: collapse;
+    }
+    .d-flex .p-2{
+        max-width:200px;
+    }
     #navbarList{
         display:none;
     }
     #redesSociales{
         display:none;
     }
+    #viaja{
+        font-size: 80px !important;
+        margin:0 !important;
+    }
+    #descubre {
+        font-size: 18px;
+        text-align: center;
+    }
+    #verDestinos{
+        margin-top:50px;
+    }
+    #contenedorTotalDestinos{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-prev-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+    }
+    .destinoContainer .cadaDestino{
+        width:100% !important;
+        height: fit-content !important;
+        background-position: center !important;
+        background-repeat: no-repeat;
+    }
+    #divCita{
+        top:0 !important;
+        left:0 !important;
+        font-size: 15px !important;
+    }
+    #nosotros{
+        height:fit-content !important;
+    }
+    #btnToTop{
+        display: none;
+    }
+
 }
 #navbarList {
     text-align:center;
@@ -124,6 +181,7 @@ body {
 #inicio{
   background-image: url("../img/newYork.jpg");
   background-size: cover;
+  width:100%;
   height: 100vh;
   font-family: 'Lato';
 }
@@ -139,18 +197,16 @@ body {
 #descubre {
     font-size: 25px;
     text-shadow: 2px 2px 0px black;
+    text-align: center;
 }
 
-@media screen and (max-width:1000px){
-    #verDestinos .destinoCointainer .cadaDestino{
+@media screen and (max-width:425px){
 
-    }
 }
-
 #verDestinos{
     line-height: 20vh;
 }
-.destinoCointainer .cadaDestino{
+.destinoContainer .cadaDestino{
     margin:5vh 0vh 5vh 0vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -195,28 +251,6 @@ body {
 #destino6{
     background-image: url("../img/destinos/suiza.jpg");
 }
-/*#nosotros .wrapper{*/
-    /*background-image: url("../img/elefantes.jpg");*/
-    /*!*width: 100vw;*!*/
-    /*height: 100vh;*/
-    /*background-size: cover;*/
-    /*background-position: center center;*/
-    /*background-repeat: no-repeat;*/
-    /*font-family: 'Lato', sans-serif;*/
-/*}*/
-
-
-/*#nosotros .wrapper > div {*/
-    /*//width: 35vw;*/
-    /*//background-color: rgba(255, 255, 255,0.5);*/
-    /*position: relative;*/
-    /*top: 30px;*/
-    /*//left: 30px;*/
-    /*text-align: center;*/
-    /*border-radius: 5px;*/
-    /*padding: 10px 25px;*/
-    /*color: white;*/
-/*}*/
 
 #nosotros {
     height: 100vh;
