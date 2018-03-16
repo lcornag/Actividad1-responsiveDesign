@@ -494,3 +494,58 @@ footer button:hover,
     font-size: 4em;
     border: solid 5px;
 }
+
+/// * Diego//
+@media screen and (max-device-width : 480px) {
+
+    #divForm{
+        display:none;
+    }
+
+    #divForm{
+        text-align:center;
+    }
+
+    @media screen and (max-device-width : 480px) {
+
+        #divCita{
+            display:none;
+        }
+
+        #divCita{
+            text-align:center;
+        }
+
+
+
+        @media screen and (max-device-width : 480px) {
+
+        #divDatos{
+            display:none;
+        }
+
+        #divDatos{
+            text-align:center;
+        }
+
+
+
+            @media screen and (max-device-width : 480px) {
+
+                #textoAyuda{
+                    display:none;
+                }
+
+                #textoAyuda{
+                    text-align:center;
+                }
+
+                @media screen and (max-device-width : 480px) {
+
+                    #copyRight{
+                        display:none;
+                    }
+
+                    #copyRight{
+                        text-align:center;
+                    }
